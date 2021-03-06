@@ -13,6 +13,15 @@
 		C190B10225CD98D400FEDDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190B10025CD98D400FEDDE9 /* Main.storyboard */; };
 		C190B10425CD98D500FEDDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C190B10325CD98D500FEDDE9 /* Assets.xcassets */; };
 		C190B10725CD98D500FEDDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C190B10525CD98D500FEDDE9 /* LaunchScreen.storyboard */; };
+		C190B11425CD9A6900FEDDE9 /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C190B11325CD9A6900FEDDE9 /* Background.jpg */; };
+		C190B12925CDA81300FEDDE9 /* okButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C190B12825CDA81300FEDDE9 /* okButton.png */; };
+		C190B12C25CDA81900FEDDE9 /* rateButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C190B12B25CDA81900FEDDE9 /* rateButton.png */; };
+		C190B12F25CDA88400FEDDE9 /* aboutButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C190B12E25CDA88400FEDDE9 /* aboutButton.png */; };
+		C190B13525CDAA2B00FEDDE9 /* searchWebButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C190B13425CDAA2A00FEDDE9 /* searchWebButton.png */; };
+		C190B13B25CDAEAD00FEDDE9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190B13A25CDAEAD00FEDDE9 /* AboutViewController.swift */; };
+		C190B13E25CDAED500FEDDE9 /* EnterInfoToRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190B13D25CDAED500FEDDE9 /* EnterInfoToRateViewController.swift */; };
+		C190B14425CDAF9C00FEDDE9 /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190B14325CDAF9C00FEDDE9 /* WebPageViewController.swift */; };
+		C1D8FF7E25D62C2100A17278 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D8FF7D25D62C2100A17278 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		C190B10325CD98D500FEDDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C190B10625CD98D500FEDDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C190B10825CD98D500FEDDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C190B11325CD9A6900FEDDE9 /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
+		C190B12825CDA81300FEDDE9 /* okButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = okButton.png; sourceTree = "<group>"; };
+		C190B12B25CDA81900FEDDE9 /* rateButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rateButton.png; sourceTree = "<group>"; };
+		C190B12E25CDA88400FEDDE9 /* aboutButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutButton.png; sourceTree = "<group>"; };
+		C190B13425CDAA2A00FEDDE9 /* searchWebButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchWebButton.png; sourceTree = "<group>"; };
+		C190B13A25CDAEAD00FEDDE9 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C190B13D25CDAED500FEDDE9 /* EnterInfoToRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterInfoToRateViewController.swift; sourceTree = "<group>"; };
+		C190B14325CDAF9C00FEDDE9 /* WebPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
+		C1D8FF7D25D62C2100A17278 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,56 @@
 		C190B0F925CD98D400FEDDE9 /* Assignment1 */ = {
 			isa = PBXGroup;
 			children = (
-				C190B0FA25CD98D400FEDDE9 /* AppDelegate.swift */,
-				C190B0FC25CD98D400FEDDE9 /* SceneDelegate.swift */,
-				C190B0FE25CD98D400FEDDE9 /* ViewController.swift */,
-				C190B10025CD98D400FEDDE9 /* Main.storyboard */,
+				C190B11225CD9A3900FEDDE9 /* Classes */,
+				C190B11125CD9A2D00FEDDE9 /* ViewControllers */,
+				C190B11025CD9A2200FEDDE9 /* StoryBoards */,
+				C190B10F25CD9A1A00FEDDE9 /* Images */,
 				C190B10325CD98D500FEDDE9 /* Assets.xcassets */,
-				C190B10525CD98D500FEDDE9 /* LaunchScreen.storyboard */,
 				C190B10825CD98D500FEDDE9 /* Info.plist */,
 			);
 			path = Assignment1;
+			sourceTree = "<group>";
+		};
+		C190B10F25CD9A1A00FEDDE9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C190B13425CDAA2A00FEDDE9 /* searchWebButton.png */,
+				C190B12E25CDA88400FEDDE9 /* aboutButton.png */,
+				C190B12B25CDA81900FEDDE9 /* rateButton.png */,
+				C190B12825CDA81300FEDDE9 /* okButton.png */,
+				C190B11325CD9A6900FEDDE9 /* Background.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C190B11025CD9A2200FEDDE9 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				C190B10025CD98D400FEDDE9 /* Main.storyboard */,
+				C190B10525CD98D500FEDDE9 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		C190B11125CD9A2D00FEDDE9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C190B0FE25CD98D400FEDDE9 /* ViewController.swift */,
+				C190B13A25CDAEAD00FEDDE9 /* AboutViewController.swift */,
+				C190B13D25CDAED500FEDDE9 /* EnterInfoToRateViewController.swift */,
+				C190B14325CDAF9C00FEDDE9 /* WebPageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C190B11225CD9A3900FEDDE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C190B0FC25CD98D400FEDDE9 /* SceneDelegate.swift */,
+				C190B0FA25CD98D400FEDDE9 /* AppDelegate.swift */,
+				C1D8FF7D25D62C2100A17278 /* Data.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +183,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C190B12925CDA81300FEDDE9 /* okButton.png in Resources */,
+				C190B12C25CDA81900FEDDE9 /* rateButton.png in Resources */,
+				C190B12F25CDA88400FEDDE9 /* aboutButton.png in Resources */,
 				C190B10725CD98D500FEDDE9 /* LaunchScreen.storyboard in Resources */,
+				C190B11425CD9A6900FEDDE9 /* Background.jpg in Resources */,
 				C190B10425CD98D500FEDDE9 /* Assets.xcassets in Resources */,
 				C190B10225CD98D400FEDDE9 /* Main.storyboard in Resources */,
+				C190B13525CDAA2B00FEDDE9 /* searchWebButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D8FF7E25D62C2100A17278 /* Data.swift in Sources */,
 				C190B0FF25CD98D400FEDDE9 /* ViewController.swift in Sources */,
+				C190B13E25CDAED500FEDDE9 /* EnterInfoToRateViewController.swift in Sources */,
 				C190B0FB25CD98D400FEDDE9 /* AppDelegate.swift in Sources */,
+				C190B13B25CDAEAD00FEDDE9 /* AboutViewController.swift in Sources */,
 				C190B0FD25CD98D400FEDDE9 /* SceneDelegate.swift in Sources */,
+				C190B14425CDAF9C00FEDDE9 /* WebPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

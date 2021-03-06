@@ -8,6 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Return to main view controller
+    @IBAction func unwindToHomeController(sender : UIStoryboardSegue){
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
